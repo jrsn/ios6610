@@ -3,9 +3,9 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "nl.axi.apex6610"
         version   = "1.0.0">
-    <name>Apex PhoneGap</name>
+    <name>Artikel info</name>
     <description>
-        This application shows a simple use case for using Apex with PhoneGap.
+        Artikel info en klantbestelling
     </description>
     <author href="http://www.axi.nl" email="jrsn@axi.nl">Jeroen Roosendaal</author>
     <!--feature name="http://api.phonegap.com/1.0/device" />

@@ -8,8 +8,8 @@
         Artikel info en klantbestelling
     </description>
     <author href="http://www.axi.nl" email="thnd@axi.be">Thijs Hendrickx</author>
-    <!--feature name="http://api.phonegap.com/1.0/device" />
-    <preference name="phonegap-version" value="2.0.0" />
+    <feature name="http://api.phonegap.com/1.0/device" />
+    <preference name="phonegap-version" value="3.1.0" />
     <preference name="orientation"      value="default" />
     <preference name="target-device"    value="universal" />
     <preference name="fullscreen"       value="false" />
@@ -36,6 +36,6 @@
     <gap:splash src="res/screen/ios/screen-iphone-portrait-2x.png" gap:platform="ios"     width="640" height="960" />
     <gap:splash src="res/screen/ios/screen-ipad-portrait.png"      gap:platform="ios"     width="768" height="1024" />
     <gap:splash src="res/screen/ios/screen-ipad-landscape.png"     gap:platform="ios"     width="1024" height="768" />
-    <gap:splash src="res/screen/windows-phone/screen-portrait.jpg" gap:platform="winphone" /-->    
+    <gap:splash src="res/screen/windows-phone/screen-portrait.jpg" gap:platform="winphone" />
 	<plugin name="InAppBrowser" value="CDVInAppBrowser" />
 </widget>

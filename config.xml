@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "ios6610"
+        id        = "nl.axi.ApexPhoneGap"
         version   = "1.0.0">
-    <name>Artikel info</name>
+    <name>Apex PhoneGap</name>
     <description>
-        Artikel info
+        This application shows a simple use case for using Apex with PhoneGap.
     </description>
-    <author href="http://www.axi.nl" email="jrsn@axi.nl">Jeroen Roosendaal </author>
+    <author href="http://www.axi.nl" email="evrm@axi.nl">Erik-jan Vermaire </author>
     <!--feature name="http://api.phonegap.com/1.0/device" />
-    <preference name="phonegap-version" value="3.0.0" />
+    <preference name="phonegap-version" value="2.0.0" />
     <preference name="orientation"      value="default" />
     <preference name="target-device"    value="universal" />
     <preference name="fullscreen"       value="false" />
@@ -37,5 +37,5 @@
     <gap:splash src="res/screen/ios/screen-ipad-portrait.png"      gap:platform="ios"     width="768" height="1024" />
     <gap:splash src="res/screen/ios/screen-ipad-landscape.png"     gap:platform="ios"     width="1024" height="768" />
     <gap:splash src="res/screen/windows-phone/screen-portrait.jpg" gap:platform="winphone" /-->    
-    <gap:plugin name="InAppBrowser" /> <!-- latest release -->
+    <gap:plugin name="ChildBrowser" /> <!-- latest release -->
 </widget>

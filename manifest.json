@@ -1,0 +1,36 @@
+{
+  "name": {
+    "en-US": "Speakap Example Manifest",
+    "nl-NL": "Speakap voorbeeldmanifest"
+  },
+  "icon": "https://s3-eu-west-1.amazonaws.com/debijenkorf-survey/speakap/black-calendar-icon-16.jpg",
+  "iconThumbnailUrl": "https://s3-eu-west-1.amazonaws.com/debijenkorf-survey/speakap/black-calendar-icon-16.jpg",
+  "permissions": ["send_alerts"],
+  "entries": [
+    {
+      "position": "main",
+      "devices": "all",
+      "url": "https://example.app.speakap.io/",
+      "label": {
+        "en-US": "Example app",
+        "nl-NL": "Voorbeeld-app"
+      },
+      "icon": "\uf073"
+    }
+  /*,
+    {
+      "position": "network-timeline-widget",
+      "devices": "all",
+      "url": "https://example.app.speakap.io/widget",
+      "label": {
+        "en-US": "Example widget",
+        "nl-NL": "Voorbeeld-widget"
+      }
+    },
+    {
+      "position": "install-wizard",
+      "devices": "all",
+      "url": "https://example.app.speakap.io/install"
+    }*/
+  ]
+}
